@@ -68,8 +68,7 @@ def get_average_age_for_season(data, season)
           
             #average = age_array.each do |age|
              average_age = (age/count).round 
-  
+    end
   end
-  average_age = (age/count).round
   average_age
 end
