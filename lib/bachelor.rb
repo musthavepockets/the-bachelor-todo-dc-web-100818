@@ -62,7 +62,7 @@ def get_average_age_for_season(data, season)
         #contestant.each do |data, value|
         
         #contestant.map do |value|
-          age_array = lady_array.collect |value| contestant["age"].to_f
+          age_array = lady_array.collect do |age| contestant["age"].to_f
         end
           
             average = age_array.each do |age|
