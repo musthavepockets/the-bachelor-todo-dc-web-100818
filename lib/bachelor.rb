@@ -42,11 +42,10 @@ def get_occupation(data, hometown)
       if contestant["hometown"] = hometown
       #place_array = contestant.collect do |place| place = contestant["hometown"]
       #binding.pry
-        place_array.each.find do |location| 
-          break if location == hometown
+        #place_array.each.find do |location| 
+          #break if location == hometown
             occupation = contestant["occupation"]
           
-        end
       end
     end
   end
