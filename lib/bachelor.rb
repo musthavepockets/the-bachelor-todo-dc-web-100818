@@ -45,7 +45,7 @@ def get_occupation(data, hometown)
           #break if location == hometown
             occupation = contestant["occupation"]
           
-      end
+      
     end
   end
   occupation
