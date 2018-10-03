@@ -56,9 +56,10 @@ end
 def get_average_age_for_season(data, season)
   age_array = []
   age = 0
-  data.each do |season, lady_array| 
-    lady_array.each do |contestant|
-      contestant.each do |data, value|
+  data.each do |season_num, lady_array|
+    if season_num == season
+      lady_array.each do |contestant|
+        contestant.each do |data, value|
         
         #contestant.map do |value|
           age_array << contestant["age"].to_f
@@ -68,7 +69,7 @@ def get_average_age_for_season(data, season)
             binding.pry
   #arr.inject{ |sum, el| sum + el }.to_f / arr.size
         
-      #end
+      end
     end
   end
 end
