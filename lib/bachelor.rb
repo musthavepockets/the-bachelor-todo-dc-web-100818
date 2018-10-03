@@ -57,7 +57,7 @@ def get_average_age_for_season(data, season)
   age_array = []
   count = 0
   data[season].each do |contestant_age|
-    age += 
+    contestant_age += 
     binding.pry
       lady_array.each do |contestant|
         count += 1
