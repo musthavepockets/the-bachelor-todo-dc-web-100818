@@ -39,7 +39,8 @@ def get_occupation(data, hometown)
   place_array = []
   data.each do |season, lady_array| 
     lady_array.each do |contestant|
-      place_array = contestant.collect do |place| place = contestant["hometown"]
+      if contestant["hometown"] = hometown
+      #place_array = contestant.collect do |place| place = contestant["hometown"]
       #binding.pry
         place_array.each.find do |location| 
           break if location == hometown
