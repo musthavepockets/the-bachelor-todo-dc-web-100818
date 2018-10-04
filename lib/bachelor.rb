@@ -39,7 +39,7 @@ def get_occupation(data, hometown)
   data.each do |season, lady_array| 
     lady_array.each do |contestant|
       if contestant["hometown"] = hometown
-      occupation = contestant["occupation"]
+        occupation = contestant["occupation"]
       #place_array = contestant.collect do |place| place = contestant["hometown"]
       #binding.pry
         #place_array.each.find do |location| 
