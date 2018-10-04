@@ -45,8 +45,6 @@ def get_occupation(data, hometown)
         #place_array.each.find do |location| 
           #break if location == hometown
             
-          
-      
     end
   end
   occupation
