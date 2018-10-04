@@ -41,15 +41,10 @@ def get_occupation(data, hometown)
       if contestant["hometown"] == hometown
         job_array << contestant["occupation"]
         occupation = job_array.first
-      #place_array = contestant.collect do |place| place = contestant["hometown"]
-      #binding.pry
-        #place_array.each.find do |location| 
-          #break if location == hometown
       end     
     end
   end
   occupation
-  
 end
 
 def get_average_age_for_season(data, season)
